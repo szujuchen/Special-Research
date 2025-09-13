@@ -1,0 +1,803 @@
+n_users: 30000, n_items: 295909, data density: 0.0181 %
+Training start time: [35m2024-04-24 11:34:51[0m
+Epoch 1 elapsed: 44.053s
+	 [32mtrain_loss: 0.3434[0m
+	 eval log_loss: 0.5412
+	 eval roc_auc: 0.9333
+	 eval precision@300: 0.0038
+	 eval recall@300: 0.1716
+	 eval ndcg@300: 0.1112
+==============================
+Epoch 2 elapsed: 43.748s
+	 [32mtrain_loss: 0.1524[0m
+	 eval log_loss: 0.5368
+	 eval roc_auc: 0.9512
+	 eval precision@300: 0.0045
+	 eval recall@300: 0.2042
+	 eval ndcg@300: 0.1287
+==============================
+Epoch 3 elapsed: 43.762s
+	 [32mtrain_loss: 0.113[0m
+	 eval log_loss: 0.5219
+	 eval roc_auc: 0.9607
+	 eval precision@300: 0.0050
+	 eval recall@300: 0.2267
+	 eval ndcg@300: 0.1403
+==============================
+Epoch 4 elapsed: 43.761s
+	 [32mtrain_loss: 0.0905[0m
+	 eval log_loss: 0.5103
+	 eval roc_auc: 0.9660
+	 eval precision@300: 0.0053
+	 eval recall@300: 0.2435
+	 eval ndcg@300: 0.1484
+==============================
+Epoch 5 elapsed: 43.746s
+	 [32mtrain_loss: 0.0757[0m
+	 eval log_loss: 0.5026
+	 eval roc_auc: 0.9691
+	 eval precision@300: 0.0056
+	 eval recall@300: 0.2570
+	 eval ndcg@300: 0.1549
+==============================
+Epoch 6 elapsed: 43.732s
+	 [32mtrain_loss: 0.0657[0m
+	 eval log_loss: 0.4971
+	 eval roc_auc: 0.9713
+	 eval precision@300: 0.0058
+	 eval recall@300: 0.2689
+	 eval ndcg@300: 0.1606
+==============================
+Epoch 7 elapsed: 43.740s
+	 [32mtrain_loss: 0.0582[0m
+	 eval log_loss: 0.4933
+	 eval roc_auc: 0.9729
+	 eval precision@300: 0.0060
+	 eval recall@300: 0.2793
+	 eval ndcg@300: 0.1655
+==============================
+Epoch 8 elapsed: 43.742s
+	 [32mtrain_loss: 0.0523[0m
+	 eval log_loss: 0.4899
+	 eval roc_auc: 0.9741
+	 eval precision@300: 0.0062
+	 eval recall@300: 0.2883
+	 eval ndcg@300: 0.1698
+==============================
+Epoch 9 elapsed: 43.737s
+	 [32mtrain_loss: 0.0474[0m
+	 eval log_loss: 0.4877
+	 eval roc_auc: 0.9750
+	 eval precision@300: 0.0064
+	 eval recall@300: 0.2966
+	 eval ndcg@300: 0.1736
+==============================
+Epoch 10 elapsed: 43.722s
+	 [32mtrain_loss: 0.0429[0m
+	 eval log_loss: 0.4860
+	 eval roc_auc: 0.9757
+	 eval precision@300: 0.0066
+	 eval recall@300: 0.3037
+	 eval ndcg@300: 0.1770
+==============================
+Epoch 11 elapsed: 43.727s
+	 [32mtrain_loss: 0.0398[0m
+	 eval log_loss: 0.4843
+	 eval roc_auc: 0.9763
+	 eval precision@300: 0.0067
+	 eval recall@300: 0.3106
+	 eval ndcg@300: 0.1804
+==============================
+Epoch 12 elapsed: 43.774s
+	 [32mtrain_loss: 0.0371[0m
+	 eval log_loss: 0.4828
+	 eval roc_auc: 0.9768
+	 eval precision@300: 0.0068
+	 eval recall@300: 0.3165
+	 eval ndcg@300: 0.1831
+==============================
+Epoch 13 elapsed: 43.739s
+	 [32mtrain_loss: 0.0345[0m
+	 eval log_loss: 0.4816
+	 eval roc_auc: 0.9773
+	 eval precision@300: 0.0070
+	 eval recall@300: 0.3230
+	 eval ndcg@300: 0.1861
+==============================
+Epoch 14 elapsed: 43.767s
+	 [32mtrain_loss: 0.0322[0m
+	 eval log_loss: 0.4812
+	 eval roc_auc: 0.9776
+	 eval precision@300: 0.0071
+	 eval recall@300: 0.3286
+	 eval ndcg@300: 0.1888
+==============================
+Epoch 15 elapsed: 43.739s
+	 [32mtrain_loss: 0.0306[0m
+	 eval log_loss: 0.4803
+	 eval roc_auc: 0.9779
+	 eval precision@300: 0.0072
+	 eval recall@300: 0.3336
+	 eval ndcg@300: 0.1916
+==============================
+Epoch 16 elapsed: 43.758s
+	 [32mtrain_loss: 0.0286[0m
+	 eval log_loss: 0.4803
+	 eval roc_auc: 0.9781
+	 eval precision@300: 0.0073
+	 eval recall@300: 0.3387
+	 eval ndcg@300: 0.1938
+==============================
+Epoch 17 elapsed: 43.740s
+	 [32mtrain_loss: 0.0267[0m
+	 eval log_loss: 0.4808
+	 eval roc_auc: 0.9783
+	 eval precision@300: 0.0074
+	 eval recall@300: 0.3430
+	 eval ndcg@300: 0.1958
+==============================
+Epoch 18 elapsed: 43.784s
+	 [32mtrain_loss: 0.0257[0m
+	 eval log_loss: 0.4807
+	 eval roc_auc: 0.9785
+	 eval precision@300: 0.0075
+	 eval recall@300: 0.3472
+	 eval ndcg@300: 0.1979
+==============================
+Epoch 19 elapsed: 43.786s
+	 [32mtrain_loss: 0.0245[0m
+	 eval log_loss: 0.4807
+	 eval roc_auc: 0.9786
+	 eval precision@300: 0.0076
+	 eval recall@300: 0.3517
+	 eval ndcg@300: 0.1998
+==============================
+Epoch 20 elapsed: 43.765s
+	 [32mtrain_loss: 0.0233[0m
+	 eval log_loss: 0.4809
+	 eval roc_auc: 0.9788
+	 eval precision@300: 0.0076
+	 eval recall@300: 0.3552
+	 eval ndcg@300: 0.2017
+==============================
+Epoch 21 elapsed: 43.756s
+	 [32mtrain_loss: 0.0223[0m
+	 eval log_loss: 0.4811
+	 eval roc_auc: 0.9789
+	 eval precision@300: 0.0077
+	 eval recall@300: 0.3586
+	 eval ndcg@300: 0.2034
+==============================
+Epoch 22 elapsed: 43.774s
+	 [32mtrain_loss: 0.021[0m
+	 eval log_loss: 0.4814
+	 eval roc_auc: 0.9790
+	 eval precision@300: 0.0078
+	 eval recall@300: 0.3620
+	 eval ndcg@300: 0.2050
+==============================
+Epoch 23 elapsed: 43.778s
+	 [32mtrain_loss: 0.0202[0m
+	 eval log_loss: 0.4820
+	 eval roc_auc: 0.9791
+	 eval precision@300: 0.0078
+	 eval recall@300: 0.3654
+	 eval ndcg@300: 0.2066
+==============================
+Epoch 24 elapsed: 43.754s
+	 [32mtrain_loss: 0.0196[0m
+	 eval log_loss: 0.4825
+	 eval roc_auc: 0.9792
+	 eval precision@300: 0.0079
+	 eval recall@300: 0.3682
+	 eval ndcg@300: 0.2079
+==============================
+Epoch 25 elapsed: 43.768s
+	 [32mtrain_loss: 0.0189[0m
+	 eval log_loss: 0.4827
+	 eval roc_auc: 0.9792
+	 eval precision@300: 0.0080
+	 eval recall@300: 0.3717
+	 eval ndcg@300: 0.2095
+==============================
+Epoch 26 elapsed: 43.730s
+	 [32mtrain_loss: 0.018[0m
+	 eval log_loss: 0.4831
+	 eval roc_auc: 0.9793
+	 eval precision@300: 0.0080
+	 eval recall@300: 0.3743
+	 eval ndcg@300: 0.2108
+==============================
+Epoch 27 elapsed: 43.732s
+	 [32mtrain_loss: 0.0172[0m
+	 eval log_loss: 0.4837
+	 eval roc_auc: 0.9793
+	 eval precision@300: 0.0081
+	 eval recall@300: 0.3770
+	 eval ndcg@300: 0.2120
+==============================
+Epoch 28 elapsed: 43.725s
+	 [32mtrain_loss: 0.0169[0m
+	 eval log_loss: 0.4839
+	 eval roc_auc: 0.9793
+	 eval precision@300: 0.0081
+	 eval recall@300: 0.3801
+	 eval ndcg@300: 0.2135
+==============================
+Epoch 29 elapsed: 43.756s
+	 [32mtrain_loss: 0.0162[0m
+	 eval log_loss: 0.4844
+	 eval roc_auc: 0.9793
+	 eval precision@300: 0.0082
+	 eval recall@300: 0.3820
+	 eval ndcg@300: 0.2146
+==============================
+Epoch 30 elapsed: 43.773s
+	 [32mtrain_loss: 0.0159[0m
+	 eval log_loss: 0.4851
+	 eval roc_auc: 0.9794
+	 eval precision@300: 0.0082
+	 eval recall@300: 0.3843
+	 eval ndcg@300: 0.2157
+==============================
+Epoch 31 elapsed: 43.729s
+	 [32mtrain_loss: 0.0152[0m
+	 eval log_loss: 0.4855
+	 eval roc_auc: 0.9794
+	 eval precision@300: 0.0083
+	 eval recall@300: 0.3867
+	 eval ndcg@300: 0.2171
+==============================
+Epoch 32 elapsed: 43.736s
+	 [32mtrain_loss: 0.0147[0m
+	 eval log_loss: 0.4861
+	 eval roc_auc: 0.9793
+	 eval precision@300: 0.0083
+	 eval recall@300: 0.3895
+	 eval ndcg@300: 0.2181
+==============================
+Epoch 33 elapsed: 44.099s
+	 [32mtrain_loss: 0.0144[0m
+	 eval log_loss: 0.4864
+	 eval roc_auc: 0.9793
+	 eval precision@300: 0.0084
+	 eval recall@300: 0.3921
+	 eval ndcg@300: 0.2193
+==============================
+Epoch 34 elapsed: 43.893s
+	 [32mtrain_loss: 0.0137[0m
+	 eval log_loss: 0.4871
+	 eval roc_auc: 0.9793
+	 eval precision@300: 0.0084
+	 eval recall@300: 0.3944
+	 eval ndcg@300: 0.2203
+==============================
+Epoch 35 elapsed: 43.854s
+	 [32mtrain_loss: 0.0131[0m
+	 eval log_loss: 0.4879
+	 eval roc_auc: 0.9793
+	 eval precision@300: 0.0085
+	 eval recall@300: 0.3966
+	 eval ndcg@300: 0.2213
+==============================
+Epoch 36 elapsed: 43.914s
+	 [32mtrain_loss: 0.0132[0m
+	 eval log_loss: 0.4884
+	 eval roc_auc: 0.9793
+	 eval precision@300: 0.0085
+	 eval recall@300: 0.3989
+	 eval ndcg@300: 0.2222
+==============================
+Epoch 37 elapsed: 43.820s
+	 [32mtrain_loss: 0.0128[0m
+	 eval log_loss: 0.4887
+	 eval roc_auc: 0.9793
+	 eval precision@300: 0.0086
+	 eval recall@300: 0.4008
+	 eval ndcg@300: 0.2232
+==============================
+Epoch 38 elapsed: 43.819s
+	 [32mtrain_loss: 0.0123[0m
+	 eval log_loss: 0.4895
+	 eval roc_auc: 0.9793
+	 eval precision@300: 0.0086
+	 eval recall@300: 0.4024
+	 eval ndcg@300: 0.2240
+==============================
+Epoch 39 elapsed: 43.837s
+	 [32mtrain_loss: 0.0119[0m
+	 eval log_loss: 0.4904
+	 eval roc_auc: 0.9793
+	 eval precision@300: 0.0086
+	 eval recall@300: 0.4038
+	 eval ndcg@300: 0.2247
+==============================
+Epoch 40 elapsed: 43.886s
+	 [32mtrain_loss: 0.0117[0m
+	 eval log_loss: 0.4905
+	 eval roc_auc: 0.9793
+	 eval precision@300: 0.0087
+	 eval recall@300: 0.4057
+	 eval ndcg@300: 0.2258
+==============================
+Epoch 41 elapsed: 44.015s
+	 [32mtrain_loss: 0.0115[0m
+	 eval log_loss: 0.4910
+	 eval roc_auc: 0.9792
+	 eval precision@300: 0.0087
+	 eval recall@300: 0.4076
+	 eval ndcg@300: 0.2265
+==============================
+Epoch 42 elapsed: 44.044s
+	 [32mtrain_loss: 0.0112[0m
+	 eval log_loss: 0.4914
+	 eval roc_auc: 0.9792
+	 eval precision@300: 0.0087
+	 eval recall@300: 0.4096
+	 eval ndcg@300: 0.2276
+==============================
+Epoch 43 elapsed: 43.995s
+	 [32mtrain_loss: 0.0109[0m
+	 eval log_loss: 0.4920
+	 eval roc_auc: 0.9792
+	 eval precision@300: 0.0088
+	 eval recall@300: 0.4115
+	 eval ndcg@300: 0.2285
+==============================
+Epoch 44 elapsed: 44.004s
+	 [32mtrain_loss: 0.0106[0m
+	 eval log_loss: 0.4925
+	 eval roc_auc: 0.9792
+	 eval precision@300: 0.0088
+	 eval recall@300: 0.4127
+	 eval ndcg@300: 0.2293
+==============================
+Epoch 45 elapsed: 44.029s
+	 [32mtrain_loss: 0.0103[0m
+	 eval log_loss: 0.4931
+	 eval roc_auc: 0.9792
+	 eval precision@300: 0.0088
+	 eval recall@300: 0.4140
+	 eval ndcg@300: 0.2299
+==============================
+Epoch 46 elapsed: 44.024s
+	 [32mtrain_loss: 0.0103[0m
+	 eval log_loss: 0.4935
+	 eval roc_auc: 0.9791
+	 eval precision@300: 0.0089
+	 eval recall@300: 0.4159
+	 eval ndcg@300: 0.2308
+==============================
+Epoch 47 elapsed: 43.840s
+	 [32mtrain_loss: 0.01[0m
+	 eval log_loss: 0.4936
+	 eval roc_auc: 0.9791
+	 eval precision@300: 0.0089
+	 eval recall@300: 0.4170
+	 eval ndcg@300: 0.2314
+==============================
+Epoch 48 elapsed: 43.709s
+	 [32mtrain_loss: 0.0097[0m
+	 eval log_loss: 0.4943
+	 eval roc_auc: 0.9791
+	 eval precision@300: 0.0089
+	 eval recall@300: 0.4184
+	 eval ndcg@300: 0.2319
+==============================
+Epoch 49 elapsed: 43.718s
+	 [32mtrain_loss: 0.0097[0m
+	 eval log_loss: 0.4948
+	 eval roc_auc: 0.9791
+	 eval precision@300: 0.0089
+	 eval recall@300: 0.4199
+	 eval ndcg@300: 0.2323
+==============================
+Epoch 50 elapsed: 43.755s
+	 [32mtrain_loss: 0.0093[0m
+	 eval log_loss: 0.4954
+	 eval roc_auc: 0.9791
+	 eval precision@300: 0.0090
+	 eval recall@300: 0.4208
+	 eval ndcg@300: 0.2330
+==============================
+Epoch 51 elapsed: 43.859s
+	 [32mtrain_loss: 0.0093[0m
+	 eval log_loss: 0.4958
+	 eval roc_auc: 0.9790
+	 eval precision@300: 0.0090
+	 eval recall@300: 0.4221
+	 eval ndcg@300: 0.2336
+==============================
+Epoch 52 elapsed: 44.012s
+	 [32mtrain_loss: 0.0089[0m
+	 eval log_loss: 0.4964
+	 eval roc_auc: 0.9790
+	 eval precision@300: 0.0090
+	 eval recall@300: 0.4234
+	 eval ndcg@300: 0.2340
+==============================
+Epoch 53 elapsed: 43.774s
+	 [32mtrain_loss: 0.0087[0m
+	 eval log_loss: 0.4968
+	 eval roc_auc: 0.9790
+	 eval precision@300: 0.0090
+	 eval recall@300: 0.4241
+	 eval ndcg@300: 0.2342
+==============================
+Epoch 54 elapsed: 43.756s
+	 [32mtrain_loss: 0.0085[0m
+	 eval log_loss: 0.4973
+	 eval roc_auc: 0.9790
+	 eval precision@300: 0.0091
+	 eval recall@300: 0.4246
+	 eval ndcg@300: 0.2347
+==============================
+Epoch 55 elapsed: 43.783s
+	 [32mtrain_loss: 0.0085[0m
+	 eval log_loss: 0.4976
+	 eval roc_auc: 0.9789
+	 eval precision@300: 0.0091
+	 eval recall@300: 0.4261
+	 eval ndcg@300: 0.2354
+==============================
+Epoch 56 elapsed: 43.812s
+	 [32mtrain_loss: 0.0084[0m
+	 eval log_loss: 0.4983
+	 eval roc_auc: 0.9789
+	 eval precision@300: 0.0091
+	 eval recall@300: 0.4275
+	 eval ndcg@300: 0.2361
+==============================
+Epoch 57 elapsed: 43.726s
+	 [32mtrain_loss: 0.0081[0m
+	 eval log_loss: 0.4985
+	 eval roc_auc: 0.9789
+	 eval precision@300: 0.0091
+	 eval recall@300: 0.4287
+	 eval ndcg@300: 0.2368
+==============================
+Epoch 58 elapsed: 43.740s
+	 [32mtrain_loss: 0.0081[0m
+	 eval log_loss: 0.4991
+	 eval roc_auc: 0.9788
+	 eval precision@300: 0.0092
+	 eval recall@300: 0.4296
+	 eval ndcg@300: 0.2373
+==============================
+Epoch 59 elapsed: 43.734s
+	 [32mtrain_loss: 0.0078[0m
+	 eval log_loss: 0.4997
+	 eval roc_auc: 0.9788
+	 eval precision@300: 0.0092
+	 eval recall@300: 0.4306
+	 eval ndcg@300: 0.2376
+==============================
+Epoch 60 elapsed: 43.753s
+	 [32mtrain_loss: 0.0078[0m
+	 eval log_loss: 0.5000
+	 eval roc_auc: 0.9788
+	 eval precision@300: 0.0092
+	 eval recall@300: 0.4317
+	 eval ndcg@300: 0.2381
+==============================
+Epoch 61 elapsed: 43.800s
+	 [32mtrain_loss: 0.0078[0m
+	 eval log_loss: 0.5004
+	 eval roc_auc: 0.9787
+	 eval precision@300: 0.0092
+	 eval recall@300: 0.4331
+	 eval ndcg@300: 0.2385
+==============================
+Epoch 62 elapsed: 43.757s
+	 [32mtrain_loss: 0.0075[0m
+	 eval log_loss: 0.5008
+	 eval roc_auc: 0.9787
+	 eval precision@300: 0.0092
+	 eval recall@300: 0.4337
+	 eval ndcg@300: 0.2390
+==============================
+Epoch 63 elapsed: 43.762s
+	 [32mtrain_loss: 0.0075[0m
+	 eval log_loss: 0.5010
+	 eval roc_auc: 0.9786
+	 eval precision@300: 0.0093
+	 eval recall@300: 0.4344
+	 eval ndcg@300: 0.2395
+==============================
+Epoch 64 elapsed: 43.767s
+	 [32mtrain_loss: 0.0074[0m
+	 eval log_loss: 0.5013
+	 eval roc_auc: 0.9786
+	 eval precision@300: 0.0093
+	 eval recall@300: 0.4355
+	 eval ndcg@300: 0.2399
+==============================
+Epoch 65 elapsed: 43.818s
+	 [32mtrain_loss: 0.0071[0m
+	 eval log_loss: 0.5019
+	 eval roc_auc: 0.9786
+	 eval precision@300: 0.0093
+	 eval recall@300: 0.4360
+	 eval ndcg@300: 0.2404
+==============================
+Epoch 66 elapsed: 44.132s
+	 [32mtrain_loss: 0.0072[0m
+	 eval log_loss: 0.5024
+	 eval roc_auc: 0.9785
+	 eval precision@300: 0.0093
+	 eval recall@300: 0.4368
+	 eval ndcg@300: 0.2407
+==============================
+Epoch 67 elapsed: 43.844s
+	 [32mtrain_loss: 0.007[0m
+	 eval log_loss: 0.5029
+	 eval roc_auc: 0.9785
+	 eval precision@300: 0.0093
+	 eval recall@300: 0.4372
+	 eval ndcg@300: 0.2412
+==============================
+Epoch 68 elapsed: 43.815s
+	 [32mtrain_loss: 0.007[0m
+	 eval log_loss: 0.5030
+	 eval roc_auc: 0.9784
+	 eval precision@300: 0.0094
+	 eval recall@300: 0.4384
+	 eval ndcg@300: 0.2417
+==============================
+Epoch 69 elapsed: 43.797s
+	 [32mtrain_loss: 0.0067[0m
+	 eval log_loss: 0.5038
+	 eval roc_auc: 0.9784
+	 eval precision@300: 0.0094
+	 eval recall@300: 0.4391
+	 eval ndcg@300: 0.2420
+==============================
+Epoch 70 elapsed: 43.930s
+	 [32mtrain_loss: 0.0067[0m
+	 eval log_loss: 0.5043
+	 eval roc_auc: 0.9784
+	 eval precision@300: 0.0094
+	 eval recall@300: 0.4400
+	 eval ndcg@300: 0.2426
+==============================
+Epoch 71 elapsed: 43.996s
+	 [32mtrain_loss: 0.0066[0m
+	 eval log_loss: 0.5045
+	 eval roc_auc: 0.9783
+	 eval precision@300: 0.0094
+	 eval recall@300: 0.4409
+	 eval ndcg@300: 0.2430
+==============================
+Epoch 72 elapsed: 43.840s
+	 [32mtrain_loss: 0.0064[0m
+	 eval log_loss: 0.5050
+	 eval roc_auc: 0.9783
+	 eval precision@300: 0.0094
+	 eval recall@300: 0.4413
+	 eval ndcg@300: 0.2433
+==============================
+Epoch 73 elapsed: 43.968s
+	 [32mtrain_loss: 0.0063[0m
+	 eval log_loss: 0.5054
+	 eval roc_auc: 0.9782
+	 eval precision@300: 0.0094
+	 eval recall@300: 0.4421
+	 eval ndcg@300: 0.2438
+==============================
+Epoch 74 elapsed: 43.802s
+	 [32mtrain_loss: 0.0064[0m
+	 eval log_loss: 0.5057
+	 eval roc_auc: 0.9782
+	 eval precision@300: 0.0094
+	 eval recall@300: 0.4428
+	 eval ndcg@300: 0.2443
+==============================
+Epoch 75 elapsed: 43.798s
+	 [32mtrain_loss: 0.0063[0m
+	 eval log_loss: 0.5060
+	 eval roc_auc: 0.9781
+	 eval precision@300: 0.0095
+	 eval recall@300: 0.4437
+	 eval ndcg@300: 0.2447
+==============================
+Epoch 76 elapsed: 43.820s
+	 [32mtrain_loss: 0.0062[0m
+	 eval log_loss: 0.5065
+	 eval roc_auc: 0.9781
+	 eval precision@300: 0.0095
+	 eval recall@300: 0.4443
+	 eval ndcg@300: 0.2452
+==============================
+Epoch 77 elapsed: 43.812s
+	 [32mtrain_loss: 0.0062[0m
+	 eval log_loss: 0.5068
+	 eval roc_auc: 0.9781
+	 eval precision@300: 0.0095
+	 eval recall@300: 0.4446
+	 eval ndcg@300: 0.2454
+==============================
+Epoch 78 elapsed: 43.777s
+	 [32mtrain_loss: 0.0062[0m
+	 eval log_loss: 0.5070
+	 eval roc_auc: 0.9780
+	 eval precision@300: 0.0095
+	 eval recall@300: 0.4454
+	 eval ndcg@300: 0.2456
+==============================
+Epoch 79 elapsed: 43.796s
+	 [32mtrain_loss: 0.0058[0m
+	 eval log_loss: 0.5078
+	 eval roc_auc: 0.9780
+	 eval precision@300: 0.0095
+	 eval recall@300: 0.4455
+	 eval ndcg@300: 0.2457
+==============================
+Epoch 80 elapsed: 43.817s
+	 [32mtrain_loss: 0.0057[0m
+	 eval log_loss: 0.5083
+	 eval roc_auc: 0.9780
+	 eval precision@300: 0.0095
+	 eval recall@300: 0.4462
+	 eval ndcg@300: 0.2461
+==============================
+Epoch 81 elapsed: 43.827s
+	 [32mtrain_loss: 0.0058[0m
+	 eval log_loss: 0.5086
+	 eval roc_auc: 0.9780
+	 eval precision@300: 0.0095
+	 eval recall@300: 0.4466
+	 eval ndcg@300: 0.2462
+==============================
+Epoch 82 elapsed: 43.635s
+	 [32mtrain_loss: 0.0057[0m
+	 eval log_loss: 0.5093
+	 eval roc_auc: 0.9780
+	 eval precision@300: 0.0095
+	 eval recall@300: 0.4469
+	 eval ndcg@300: 0.2464
+==============================
+Epoch 83 elapsed: 43.376s
+	 [32mtrain_loss: 0.0057[0m
+	 eval log_loss: 0.5096
+	 eval roc_auc: 0.9779
+	 eval precision@300: 0.0095
+	 eval recall@300: 0.4478
+	 eval ndcg@300: 0.2467
+==============================
+Epoch 84 elapsed: 44.062s
+	 [32mtrain_loss: 0.0057[0m
+	 eval log_loss: 0.5098
+	 eval roc_auc: 0.9778
+	 eval precision@300: 0.0096
+	 eval recall@300: 0.4483
+	 eval ndcg@300: 0.2469
+==============================
+Epoch 85 elapsed: 44.061s
+	 [32mtrain_loss: 0.0054[0m
+	 eval log_loss: 0.5103
+	 eval roc_auc: 0.9778
+	 eval precision@300: 0.0096
+	 eval recall@300: 0.4483
+	 eval ndcg@300: 0.2474
+==============================
+Epoch 86 elapsed: 44.101s
+	 [32mtrain_loss: 0.0053[0m
+	 eval log_loss: 0.5105
+	 eval roc_auc: 0.9777
+	 eval precision@300: 0.0096
+	 eval recall@300: 0.4491
+	 eval ndcg@300: 0.2477
+==============================
+Epoch 87 elapsed: 43.881s
+	 [32mtrain_loss: 0.0054[0m
+	 eval log_loss: 0.5109
+	 eval roc_auc: 0.9777
+	 eval precision@300: 0.0096
+	 eval recall@300: 0.4497
+	 eval ndcg@300: 0.2482
+==============================
+Epoch 88 elapsed: 43.777s
+	 [32mtrain_loss: 0.0054[0m
+	 eval log_loss: 0.5112
+	 eval roc_auc: 0.9776
+	 eval precision@300: 0.0096
+	 eval recall@300: 0.4498
+	 eval ndcg@300: 0.2485
+==============================
+Epoch 89 elapsed: 43.778s
+	 [32mtrain_loss: 0.0053[0m
+	 eval log_loss: 0.5115
+	 eval roc_auc: 0.9776
+	 eval precision@300: 0.0096
+	 eval recall@300: 0.4506
+	 eval ndcg@300: 0.2489
+==============================
+Epoch 90 elapsed: 43.780s
+	 [32mtrain_loss: 0.005[0m
+	 eval log_loss: 0.5122
+	 eval roc_auc: 0.9776
+	 eval precision@300: 0.0096
+	 eval recall@300: 0.4510
+	 eval ndcg@300: 0.2491
+==============================
+Epoch 91 elapsed: 44.053s
+	 [32mtrain_loss: 0.0051[0m
+	 eval log_loss: 0.5123
+	 eval roc_auc: 0.9775
+	 eval precision@300: 0.0096
+	 eval recall@300: 0.4516
+	 eval ndcg@300: 0.2494
+==============================
+Epoch 92 elapsed: 43.841s
+	 [32mtrain_loss: 0.0051[0m
+	 eval log_loss: 0.5130
+	 eval roc_auc: 0.9775
+	 eval precision@300: 0.0097
+	 eval recall@300: 0.4524
+	 eval ndcg@300: 0.2498
+==============================
+Epoch 93 elapsed: 43.930s
+	 [32mtrain_loss: 0.0051[0m
+	 eval log_loss: 0.5129
+	 eval roc_auc: 0.9775
+	 eval precision@300: 0.0097
+	 eval recall@300: 0.4527
+	 eval ndcg@300: 0.2499
+==============================
+Epoch 94 elapsed: 43.888s
+	 [32mtrain_loss: 0.0049[0m
+	 eval log_loss: 0.5133
+	 eval roc_auc: 0.9775
+	 eval precision@300: 0.0097
+	 eval recall@300: 0.4529
+	 eval ndcg@300: 0.2502
+==============================
+Epoch 95 elapsed: 43.835s
+	 [32mtrain_loss: 0.0049[0m
+	 eval log_loss: 0.5136
+	 eval roc_auc: 0.9773
+	 eval precision@300: 0.0097
+	 eval recall@300: 0.4536
+	 eval ndcg@300: 0.2505
+==============================
+Epoch 96 elapsed: 43.779s
+	 [32mtrain_loss: 0.0049[0m
+	 eval log_loss: 0.5141
+	 eval roc_auc: 0.9773
+	 eval precision@300: 0.0097
+	 eval recall@300: 0.4536
+	 eval ndcg@300: 0.2508
+==============================
+Epoch 97 elapsed: 43.786s
+	 [32mtrain_loss: 0.0047[0m
+	 eval log_loss: 0.5147
+	 eval roc_auc: 0.9773
+	 eval precision@300: 0.0097
+	 eval recall@300: 0.4538
+	 eval ndcg@300: 0.2508
+==============================
+Epoch 98 elapsed: 43.854s
+	 [32mtrain_loss: 0.0049[0m
+	 eval log_loss: 0.5150
+	 eval roc_auc: 0.9772
+	 eval precision@300: 0.0097
+	 eval recall@300: 0.4542
+	 eval ndcg@300: 0.2512
+==============================
+Epoch 99 elapsed: 43.798s
+	 [32mtrain_loss: 0.0048[0m
+	 eval log_loss: 0.5150
+	 eval roc_auc: 0.9772
+	 eval precision@300: 0.0097
+	 eval recall@300: 0.4543
+	 eval ndcg@300: 0.2514
+==============================
+Epoch 100 elapsed: 43.795s
+	 [32mtrain_loss: 0.0048[0m
+	 eval log_loss: 0.5154
+	 eval roc_auc: 0.9772
+	 eval precision@300: 0.0097
+	 eval recall@300: 0.4548
+	 eval ndcg@300: 0.2516
+==============================
+evaluation {'loss': 0.5146315812234539, 'roc_auc': 0.9774939624174672, 'precision': 0.044101896077579965, 'recall': 0.07713535128929888, 'ndcg': 0.17120223103870458}

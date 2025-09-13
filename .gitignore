@@ -13,8 +13,7 @@ Personalized Recommendation/code/processedData/smallmapping
 Personalized Recommendation/code/spotifydata
 Personalized Recommendation/code/spotifydatastats
 Personalized Recommendation/code/trainedData/embeddings_50epoch
-Personalized Recommendation/code/trainedData/embeddings_100epoch
+Personalized Recommendation/code/trainedData/embeddings_100epoch/embeddings*
 Personalized Recommendation/code/trainedData/libreco3epoch
 Personalized Recommendation/code/trainedData/libreco30epoch
-Personalized Recommendation/code/trainedData/libreco100epoch
 Personalized Recommendation/code/.cache
