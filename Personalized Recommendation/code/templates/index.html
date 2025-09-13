@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="chrome">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="{{ url_for('static', filename='like.png') }}">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='index.css') }}">
+        <title>Test Recommend</title>
+    </head>
+    <body>
+        <h1>Test Recommend</h1>
+        <form class="grid" action="/search" method="POST">
+            <label for="name">Enter you search keyword:</label>
+            <input type="text" id="keyword" name="keyword">
+            <input type="Submit">
+        </form>
+        {% if type %}
+            <h3 style="color: blue;">Your search keyword: {{keyword}} !</h3>
+        {% endif %}
+        {% if extend %}
+            <h4 style="color: blue;">extended keywords: </h4>
+            <p>
+            {%for ext in extend%}
+                {{ext}} / 
+            {%endfor%}
+            </p>
+        {% endif %}
+
+        {% if type %}
+            {% if type == "search"%}
+            <div class="container">
+                <div class="column">
+                    <p> The search results: <br></p>
+                    {% for item in display %}
+                        <a class="reclist" href='/click/{{item["type"]}}/{{item["id"]}}'>
+                        <p>{{item["title"]}} <br> {{item["artist"]}} <br> generate by {{item["type"]}}</p>
+                        <iframe 
+                            class="rec"
+                            src='https://open.spotify.com/embed/track/{{item["id"]}}?utm_source=generator&theme=0'
+                            style="border-radius:12px" 
+                            width="60%" 
+                            frameBorder="0" 
+                            allowfullscreen="" 
+                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                            loading="lazy">
+                        </iframe>
+                        </a>
+                    {% endfor %}
+                </div>
+                <div class="columnspotify">
+                    <p> The spotify search results: <br></p>
+                    {% for item in spotify %}
+                        <p>{{item["title"]}} <br> {{item["artist"]}}</p>
+                        <iframe 
+                            class="rec"
+                            src='https://open.spotify.com/embed/track/{{item["id"]}}?utm_source=generator&theme=0'
+                            style="border-radius:12px" 
+                            width="60%" 
+                            frameBorder="0" 
+                            allowfullscreen="" 
+                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                            loading="lazy">
+                        </iframe>
+                    {% endfor %}
+                </div>
+            </div>
+            {% endif %}
+            {% if type == "click" %}
+            <div class="container">
+                <div class="subcolumn">
+                    <p> current listening to: <br></p>
+                    <p>{{track["title"]}} <br> {{track["artist"]}}</p>
+                    <iframe 
+                        src='https://open.spotify.com/embed/track/{{track["id"]}}?utm_source=generator&theme=0'
+                        style="border-radius:12px" 
+                        width="60%" 
+                        frameBorder="0" 
+                        allowfullscreen="" 
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                        loading="lazy">
+                    </iframe>
+                </div>
+                <div class="subcolumn">
+                    <p>The following recommendations: <br></p>
+                        {% for item in display %}
+                            <a class="reclist" href='/click/{{item["type"]}}/{{item["id"]}}'>
+                            <p>{{item["title"]}} <br> {{item["artist"]}} <br> generate by {{item["type"]}}</p>
+                            <iframe 
+                                class="rec"
+                                src='https://open.spotify.com/embed/track/{{item["id"]}}?utm_source=generator&theme=0'
+                                style="border-radius:12px" 
+                                width="60%" 
+                                frameBorder="0" 
+                                allowfullscreen="" 
+                                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                                loading="lazy">
+                            </iframe>
+                            </a>
+                        {% endfor %}
+                </div>
+                <div class="subcolumnspotify">
+                    <p>original spotify recommendation ({{spotifykey}}): <br></p>
+                        {% for item in spotify %}
+                            <p>{{item["title"]}} <br> {{item["artist"]}}</p>
+                            <iframe 
+                                class="rec"
+                                src='https://open.spotify.com/embed/track/{{item["id"]}}?utm_source=generator&theme=0'
+                                style="border-radius:12px" 
+                                width="60%" 
+                                frameBorder="0" 
+                                allowfullscreen="" 
+                                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                                loading="lazy">
+                            </iframe>
+                        {% endfor %}
+                </div>
+            </div>
+            {% endif %}
+        {% endif %}
+    </body>
+</html>
